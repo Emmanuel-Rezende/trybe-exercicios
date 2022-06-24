@@ -11,9 +11,28 @@ while (num > 0) {
 
  
 //exercicio 2
-let palavra = 'trybe';
+/*let palavra = 'trybe';
 let invertida = '';
 for (let index = palavra.length - 1; index >= 0; index--) {
     invertida += palavra[index];
 }
-console.log(invertida);
+console.log(invertida);*/
+
+//exercicio 3
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+let maiorPalavra = '';
+let menorPalavra = '';
+for (let index = array.length - 1; index >= 0; index--){
+    if(array[index] > maiorPalavra){
+        maiorPalavra = array[index];
+    } 
+    return maiorPalavra;  
+}
+console.log(maiorPalavra);
+/*
+for (let index = array.length - 1; index >= 0; index--){
+    if(array[index] < menorPalavra){
+        menorPalavra = array[index];
+    }   
+}
+console.log(menorPalavra);*/
