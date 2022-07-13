@@ -1,7 +1,27 @@
 html {
     box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
+    
+}
+
+header p {
+    margin: 5px;
+    padding: 5px 5px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+header nav ul{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
